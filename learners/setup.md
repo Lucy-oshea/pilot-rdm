@@ -9,8 +9,9 @@ The aim of this course is to familiarise you with the concept of Research Data M
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::: spoiler
-VU wide
+### VU Wide 
+:::::::::::::::: 
+
 
     LIBGuide
     RDM handbook
@@ -19,14 +20,14 @@ VU wide
 ::::::::::::::::::::::::
 
 :::::::::::::::: spoiler
-Faculty specific
+### Faculty specific
 
 -BETA -FGB -SBE -FMS -FRT -ETC
 
 ::::::::::::::::::::::::
 
 :::::::::::::::: spoiler
-External resources
+### External resources
 
 -LCRDM -Essential for data stewards -etc
 
