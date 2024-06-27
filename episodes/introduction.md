@@ -6,7 +6,8 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::: questions
 
-    What are the key processes involved in each stage of the research lifecycle, and how do they contribute to effective research data management (RDM)?
+    * What are the key processes involved in each stage of the research lifecycle 
+    * How do they contribute to effective research data management (RDM)?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
