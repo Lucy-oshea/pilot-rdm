@@ -216,8 +216,7 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#introduction">Introduction</a></li>
-<li><a href="#figures">Figures</a></li>
+        <ul><li><a href="#figures">Figures</a></li>
 <li><a href="#math">Math</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -283,7 +282,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Using Markdown</h1>
-        <p>Last updated on 2023-07-24 |
+        <p>Last updated on 2024-06-27 |
         
         <a href="https://github.com/Lucy-oshea/pilot-rdm/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -302,43 +301,53 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
-</ul></div>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">What</span> are the key processes involved in each stage of the research lifecycle, and how do they contribute to effective research data management <span class="er">(</span><span class="ex">RDM</span><span class="kw">)</span><span class="ex">?</span></span></code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="col-md-8">
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
-</ul></div>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">Gain</span> a comprehensive understanding of the different stages in the research lifecycle and the key activities associated with each stage.</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a><span class="ex">Learn</span> to identify and describe the essential processes involved in research data management <span class="er">(</span><span class="ex">RDM</span><span class="kw">)</span> <span class="ex">at</span> each stage of the research lifecycle.</span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="ex">Recognize</span> the significance of effective data management practices in maintaining the quality and integrity of research data.</span></code></pre>
 </div>
 </div>
 </div>
 </div>
-<section id="introduction"><h2 class="section-heading">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-</h2>
-<hr class="half-width"><p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal"><li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol><div id="challenge-1-can-you-do-it" class="callout challenge">
+</div>
+</div>
+<p>Introduction</p>
+<p>Welcome to “RDM basics”! This course is designed to provide you with
+a comprehensive understanding of the research lifecycle and the crucial
+role that research data management (RDM) plays at each stage. Whether
+you are a novice researcher or an experienced professional, mastering
+these concepts and practices is essential for conducting high-quality
+and impactful research.</p>
+<p>Throughout this course, we will explore the different stages of the
+research lifecycle, from the initial planning and proposal phase to the
+final stages of data preservation and reuse. By the end of the course,
+you will have a clear understanding of each stage and the key activities
+involved.</p>
+<!--What you need to know is that there are three sections required for a valid
+Carpentries lesson:
+
+ 1. `questions` are displayed at the beginning of the episode to prime the
+    learner for the content.
+ 2. `objectives` are the learning objectives for an episode displayed with
+    the questions.
+ 3. `keypoints` are displayed at the end of the episode to reinforce the
+    objectives. -->
+
+<div id="challenge-1-can-you-do-it" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
@@ -347,7 +356,7 @@ reinforce the objectives.</li>
 </h3>
 <div class="callout-content">
 <p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
+<div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="downlit sourceCode r">
@@ -397,7 +406,7 @@ reinforce the objectives.</li>
 </div>
 </div>
 </div>
-</section><section id="figures"><h2 class="section-heading">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+<section id="figures"><h2 class="section-heading">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
 </h2>
 <hr class="half-width"><p>You can use standard markdown for static figures with the following
 syntax:</p>
@@ -507,7 +516,7 @@ any links that you are not going to use.
   "url": "https://Lucy-oshea.github.io/pilot-rdm/introduction.html",
   "identifier": "https://Lucy-oshea.github.io/pilot-rdm/introduction.html",
   "dateCreated": "2024-06-27",
-  "dateModified": "2023-07-24",
+  "dateModified": "2024-06-27",
   "datePublished": "2024-06-27"
 }
 
