@@ -20,7 +20,7 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 Introduction
 
-Welcome to "RDM basics"! This course is designed to provide you with a comprehensive understanding of the research lifecycle and the crucial role that research data management (RDM) plays at each stage. Whether you are a novice researcher or an experienced professional, mastering these concepts and practices is essential for conducting high-quality and impactful research.
+Welcome everyone to "RDM basics"! This course is designed to provide you with a comprehensive understanding of the research lifecycle and the crucial role that research data management (RDM) plays at each stage. Whether you are a novice researcher or an experienced professional, mastering these concepts and practices is essential for conducting high-quality and impactful research.
 
 Throughout this course, we will explore the different stages of the research lifecycle, from the initial planning and proposal phase to the final stages of data preservation and reuse. By the end of the course, you will have a clear understanding of each stage and the key activities involved.
 
